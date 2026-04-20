@@ -8,8 +8,7 @@ import { ErrorBoundary } from '@/components/ErrorBoundary';
 import { AuthProvider } from '@/hooks/useAuth';
 import '@/index.css'
 import { HomePage } from '@/pages/HomePage'
-
-// Do not touch this code
+import { ValidationPage } from '@/pages/ValidationPage'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ErrorBoundary>
@@ -17,10 +16,10 @@ createRoot(document.getElementById('root')!).render(
         <BrowserRouter basename={getAppBase()}>
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/validate/:taskId" element={<ValidationPage />} />
           </Routes>
         </BrowserRouter>
       </AuthProvider>
     </ErrorBoundary>
   </StrictMode>,
 )
-   

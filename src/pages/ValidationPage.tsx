@@ -78,7 +78,7 @@ export function ValidationPage() {
         });
       } else {
         await task.complete({
-          type: task.type as TaskType.Form | TaskType.App,
+          type: task.type,
           action,
           data: { comment: comment.trim() || undefined },
         });
