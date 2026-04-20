@@ -2,7 +2,7 @@
 
 A professional enterprise Action Center application for validating ENT (Ear, Nose, Throat) medical referrals. Built with React, TypeScript, and the UiPath SDK for seamless integration with UiPath Orchestrator workflows.
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/randrewsuipath/ent-referral-validation-dashboard)
 
 ## Overview
 
@@ -160,7 +160,7 @@ src/
 
 ### Deploy to Cloudflare Pages
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/randrewsuipath/ent-referral-validation-dashboard)
 
 #### Manual Deployment
 
